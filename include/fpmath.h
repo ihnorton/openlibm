@@ -36,6 +36,9 @@
 #else 
 #include "i386_fpmath.h"
 #endif
+
+#elif defined(__arm__)
+#include "arm_fpmath.h"
 #endif
 
 #ifdef __linux

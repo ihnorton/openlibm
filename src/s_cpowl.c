@@ -49,6 +49,8 @@
 #include <openlibm.h>
 #include "math_private.h"
 
+extern long double cargl(long double complex z);
+
 DLLEXPORT long double complex
 cpowl(long double complex a, long double complex z)
 {

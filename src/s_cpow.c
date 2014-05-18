@@ -49,6 +49,8 @@
 #include <openlibm.h>
 #include "math_private.h"
 
+extern double carg(double complex);
+
 DLLEXPORT double complex
 cpow(double complex a, double complex z)
 {
